@@ -9,28 +9,30 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="mx-[2rem] my-[.5rem] lg:mx-[10rem] lg:my-[2rem]">
+<body class="">
 
-    <header >
+    <header class="mb-[2rem] lg:mb-[4rem] mx-[2rem] my-[.5rem] lg:mx-[10rem] lg:my-[2rem]">
 
         <nav class="flex justify-between items-center lg:mb-[7rem]">
             <div>
                 <img class="w-[8.5rem] h-[5rem]" src="assets/logo.png" alt="">
             </div>
             <div>
-                <ul class="flex  list-none text-none gap-[3rem]">
-                    <li class="hidden lg:flex ">home</li>
-                    <li class="hidden lg:flex" >shop</li>
-                    <li class="hidden lg:flex">about us</li>
-                    <li><i class="fa-solid fa-cart-shopping"></i> Cart</li> 
+                <ul class="flex  list-none text-none gap-[3rem] text-md">
+                    <li class="hidden lg:flex font-bold ">home</li>
+                    <li class="hidden lg:flex text-black/50">shop</li>
+                    <li class="hidden lg:flex text-black/50">about us</li>
+                    <li><i class="fa-solid fa-cart-shopping"></i> Cart</li>
                 </ul>
             </div>
         </nav>
 
-        <div class="flex items-end flex-col lg:flex-row lg:justify-between"  >
+        <div class="flex items-end flex-col lg:flex-row lg:justify-between overflow-hidden">
             <div class="order-2 w-full lg:w-[35rem] lg:order-1 flex-1">
-                <h4 class="font-bold text-[1.5rem] lg:text-[4.1rem] lg: mb-[.8rem]">ALWAYS <span class="text-orange-500">FRESS <br> FLOWERS</span></h4>
-                <h5 class="text-[.9rem] lg:text-[1.5rem] text-black/50">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                <h4 class="font-bold text-[1.5rem] lg:text-[4.1rem] lg: mb-[.8rem]">ALWAYS <span
+                        class="text-orange-500">FRESS <br> FLOWERS</span></h4>
+                <h5 class="text-[.9rem] lg:text-[1.5rem] text-black/50">Indulge your senses with the beauty and
+                    fragrance of our fresh flower shop.
                     From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for
                     any occasion. </h>
             </div>
@@ -42,95 +44,197 @@
         </div>
 
     </header>
-    <main>
-        <div class="text-center mb-[3rem]">
+    <main class="mx-[2rem] my-[.5rem] lg:mx-[10rem] lg:my-[2rem]">
+        <div class="text-center mb-[2rem] lg:mb-[3rem]">
             <h3 class="font-bold text-[1.5rem] lg:text-[3.1rem]"><Span class="text-orange-500">Our</Span> Plants</h3>
-            <h4 class="text-[.9rem] lg:text-[1.4rem] text-black/50">Indulge your senses with the beauty and fragrance of our 
-                fresh flower shop. From <br>classic roses to exotic blooms, 
+            <h4 class="text-[.9rem] lg:text-[1.4rem] text-black/50">Indulge your senses with the beauty and fragrance of
+                our fresh flower shop. From <br>classic roses to exotic blooms,
                 we offer a wide variety of fresh.</h4>
         </div>
 
-        <div class=" grid grid-cols-2 lg:grid-cols-4 gap-5 mb-[10rem]">
+        <div class=" grid grid-cols-2 lg:grid-cols-4 gap-5 mb-[4rem] lg:mb-[10rem]">
             <div class="card text-center w-[11rem] lg:w-full">
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <h4 class="text-[1.3rem] font-medium">Lily Blossom</h4>
                 <h4 class="text-[1.3rem] font-bold">20$</h4>
-                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to cart</button>
+                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to
+                    cart</button>
             </div>
             <div class="card text-center w-[11rem] lg:w-full">
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <h4 class="text-[1.3rem] font-medium">Lily Blossom</h4>
                 <h4 class="text-[1.3rem] font-bold">20$</h4>
-                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to cart</button>
+                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to
+                    cart</button>
             </div>
             <div class="card text-center w-[11rem] lg:w-full">
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <h4 class="text-[1.3rem] font-medium">Lily Blossom</h4>
                 <h4 class="text-[1.3rem] font-bold">20$</h4>
-                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to cart</button>
+                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to
+                    cart</button>
             </div>
             <div class="card text-center w-[11rem] lg:w-full">
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <h4 class="text-[1.3rem] font-medium">Lily Blossom</h4>
                 <h4 class="text-[1.3rem] font-bold">20$</h4>
-                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to cart</button>
+                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to
+                    cart</button>
             </div>
             <div class="card text-center w-[11rem] lg:w-full">
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <h4 class="text-[1.3rem] font-medium">Lily Blossom</h4>
                 <h4 class="text-[1.3rem] font-bold">20$</h4>
-                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to cart</button>
+                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to
+                    cart</button>
             </div>
             <div class="card text-center w-[11rem] lg:w-full">
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <h4 class="text-[1.3rem] font-medium">Lily Blossom</h4>
                 <h4 class="text-[1.3rem] font-bold">20$</h4>
-                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to cart</button>
+                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to
+                    cart</button>
             </div>
             <div class="card text-center w-[11rem] lg:w-full">
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <h4 class="text-[1.3rem] font-medium">Lily Blossom</h4>
                 <h4 class="text-[1.3rem] font-bold">20$</h4>
-                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to cart</button>
+                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to
+                    cart</button>
             </div>
             <div class="card text-center w-[11rem] lg:w-full">
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <h4 class="text-[1.3rem] font-medium">Lily Blossom</h4>
                 <h4 class="text-[1.3rem] font-bold">20$</h4>
-                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to cart</button>
+                <button class="bg-orange-500 w-full text-[1rem] font-semibold text-white p-1 lg:p-2">Add to
+                    cart</button>
             </div>
-            
+
         </div>
 
         <!-- trusted buyer / store section -->
 
         <section class="flex flex-col lg:flex-row justify-between mb-[3rem] ">
-           
-           <div class="flex-1 mb-[2rem] lg:mb-0 relative ">
+
+            <div class="flex-1 mb-[2rem] lg:mb-0 relative ">
                 <img class=" w-full" src="assets/flower-store.png" alt="">
-                <img class="hidden lg:flex w-[280px] h-[280px] absolute top-0 right-0  -translate-y-35 translate-x-35" src="assets/trusted-badge.png" alt="">
+                <img class="hidden lg:flex w-[280px] h-[280px] absolute top-0 right-0  -translate-y-35 translate-x-35"
+                    src="assets/trusted-badge.png" alt="">
             </div>
             <div class=" lg:ms-[6rem] lg:mt-[2rem] flex-1">
-                <h2  class="font-bold lg:text-[3rem] mb-5">Flower & Plants Lover</h2>
+                <h2 class="font-bold lg:text-[3rem] mb-5">Flower & Plants Lover</h2>
                 <ul class="list-disc ms-5 lg:ms-[3rem]  lg:text-[1.3rem] text-black/50 gap-4">
-                    <li class="mb-4 p-1">Our flower shop has built a reputation for reliability and excellence, serving thousands of satisfied customers 
+                    <li class="mb-4 p-1">Our flower shop has built a reputation for reliability and excellence, serving
+                        thousands of satisfied customers
                         who trust us to deliver beautiful, fresh flowers for every occasion. Whether it's a birthday,
-                         anniversary, or just a thoughtful gesture, we ensure your flowers arrive on time and in perfect condition.</li>
-                    <li class="mb-4 p-1">We take pride in sourcing our flowers directly from local growers and sustainable farms.
-                         This commitment allows us to offer a stunning selection of vibrant, long-lasting blooms while supporting our community and 
-                         promoting eco-friendly practices. Every bouquet is carefully arranged to highlight the natural beauty of each flower.</li>
-                    <li class="mb-4 p-1">Shopping with us is easy and secure. Our user-friendly website lets you browse a wide variety of floral arrangements,
-                         customize your order, and choose from multiple payment options. With fast, reliable delivery and dedicated customer support, 
-                         we make sure your experience is as delightful as our flowers.</li>
-                </ul> 
+                        anniversary, or just a thoughtful gesture, we ensure your flowers arrive on time and in perfect
+                        condition.</li>
+                    <li class="mb-4 p-1">We take pride in sourcing our flowers directly from local growers and
+                        sustainable farms.
+                        This commitment allows us to offer a stunning selection of vibrant, long-lasting blooms while
+                        supporting our community and
+                        promoting eco-friendly practices. Every bouquet is carefully arranged to highlight the natural
+                        beauty of each flower.</li>
+                    <li class="mb-4 p-1">Shopping with us is easy and secure. Our user-friendly website lets you browse
+                        a wide variety of floral arrangements,
+                        customize your order, and choose from multiple payment options. With fast, reliable delivery and
+                        dedicated customer support,
+                        we make sure your experience is as delightful as our flowers.</li>
+                </ul>
             </div>
         </section>
 
         <!-- latest deals -->
-        
-    </main>
-    <footer>
+        <section class="mb-[2rem] lg:mb-[3rem]">
+            <div class="mb-[2rem] lg:mb-[3rem] text-center">
+                <h3 class="font-bold text-[1.5rem] lg:text-[3.1rem]"><span class="text-orange-500">Latest</span> Deals
+                </h3>
+                <h4 class="text-[.9rem] lg:text-[1.4rem] text-black/50">Indulge your senses with the beauty and
+                    fragrance of
+                    our fresh flower shop. From <br>classic roses to exotic blooms,
+                    we offer a wide variety of fresh.</h4>
+            </div>
+            <div class="grid  grid-cols-1 gap-3 lg:grid-cols-[40%_60%]">
+                <div class="flex flex-col gap-3 lg:h-full">
+                    <div class="lg:flex-1 relative rounded-xl overflow-hidden">
+                        <img class="h-full w-full object-cover" src="assets/deal-bloom.png" alt="">
+                        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center p-4">
+                            <span class="text-white text-lg font-bold mb-2">60% Off | Bloom Plant</span>
+                            <button
+                                class="text-white px-4 py-1 rounded font-semibold text-md underline underline-offset-4">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="lg:flex-1 relative rounded-xl overflow-hidden ">
+                        <img class="lg:h-full w-full object-cover" src="assets/deal-ana.png" alt="">
+                        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center p-4">
+                            <span class="text-white text-lg font-bold mb-2">30% Off | Ana Plant</span>
+                            <button
+                                class="text-white px-4 py-1 rounded font-semibold text-md underline underline-offset-4">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden  flex items-center justify-center h-full">
+                    <img class="lg:h-full w-full object-cover" src="assets/deal-zabo.png" alt="">
+                    <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
+                        <span class="text-white text-lg lg:text-3xl font-bold mb-2">25% Off | Zabo Plant</span>
+                        <button
+                            class="text-white px-6 py-2 rounded font-semibold text-md lg:text-lg underline underline-offset-4">Shop
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+
+    </main>
+    <!-- join section -->
+
+    <div class="relative">
+        <img class="h-full w-full object-cover" src="assets/news-letter-bg.png" alt="">
+        <div class="absolute inset-0 flex flex-col items-center justify-center ">
+            <h3 class="font-bold text-2xl lg:text-5xl text-white mb-2 lg:mb-5">Join the colorfull branch</h3>
+            <form class="flex" action="">
+                <input type="text" placeholder="Write email" class="text-black/30 px-3 py-1 font-semibold text-sm bg-white w-[18rem] h-[2rem] lg:w-[45rem] lg:h-[3rem]  focus:outline-none">
+                <button class="bg-orange-500 text-white text-lg w-[6rem] h-[2rem] lg:w-[15rem] lg:h-[3rem]">Subscribe</button>
+            </form>
+
+        </div>
+    </div>
+
+
+    <footer class="flex flex-col lg:flex-row justify-around my-6 p-5 text-black/50 ">
+        <div class="mb-2">
+            <img src="assets/logo.png" alt="">
+            <h3>Indulge your senses with the beauty and fragrance of our fresh flower shop. </h3>
+        </div>
+        <div>
+            <ul class="flex flex-col gap-2 mb-2">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>FAQ </li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="flex flex-col gap-2 mb-2">
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Help Center</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="flex gap-4">
+                <li><img src="assets/icon-linkedin.png" alt=""></li>
+                <li><img src="assets/twitter-x.png" alt=""></li> 
+                <li><img src="assets/icon-facebook.png" alt=""></li>   
+                <li><img src="assets/icon-youtube.png" alt=""></li>
+            </ul>
+        </div>
     </footer>
 </body>
 
